@@ -3,7 +3,7 @@ from typing import Dict, List, Tuple
 
 def load_input() -> Tuple[List[int], List[int]]:
     left_col, right_col = [], []
-    with open('day_1_part_1.txt') as f:
+    with open('day_1.txt') as f:
         for line in f:
             left, right = line.split('   ')
             left_col.append(int(left))
